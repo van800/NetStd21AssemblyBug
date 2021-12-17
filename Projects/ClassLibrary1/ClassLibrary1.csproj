@@ -2,10 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputPath>$(SolutionDir)Assets</OutputPath>
   </PropertyGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /y &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(SolutionDir)Assets&quot;&#xD;&#xA;copy /y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(SolutionDir)Assets&quot;&#xD;&#xA;" />
-  </Target>
 
 </Project>

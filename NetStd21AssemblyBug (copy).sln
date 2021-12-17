@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B99BB62E-5525-D457-8D02-BD691AB37DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rider.Editor", "Unity.Rider.Editor.csproj", "{D14426C4-3607-ADFE-0FF8-64051BE0467E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "Projects\ClassLibrary1\ClassLibrary1.csproj", "{E077F26A-B3D6-4502-9234-9BE15717A36C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b99bb62e-5525-d457-8d02-bd691ab37de1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b99bb62e-5525-d457-8d02-bd691ab37de1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d14426c4-3607-adfe-0ff8-64051be0467e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d14426c4-3607-adfe-0ff8-64051be0467e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E077F26A-B3D6-4502-9234-9BE15717A36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E077F26A-B3D6-4502-9234-9BE15717A36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
